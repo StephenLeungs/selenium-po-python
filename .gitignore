@@ -1,0 +1,39 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build and package outputs
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# pytest cache and reports
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Allure report output
+allure-results/
+report/
+.allure/
+
+# log
+log/*
+!log/.gitkeep
