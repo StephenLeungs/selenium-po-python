@@ -28,7 +28,7 @@ class TestLogin:
     register_test_data = reader.get_sheet_data_as_dict("RegisterData")
     login_test_data = reader.get_sheet_data_as_dict("LoginData")
 
-    def setup_method(self):
+    def setup_method(self) -> None:
         """
         setup_method特殊方法
 
@@ -38,7 +38,7 @@ class TestLogin:
         self.driver.get("http://127.0.0.1:8080/login")
         self.login_page_operation = LoginPageOperation(self.driver)
 
-    def teardown_method(self):
+    def teardown_method(self) -> None:
         """
         teardown_method特殊方法
 

@@ -13,7 +13,7 @@ class BaseAction:
         driver (WebDriver): 浏览器实例
     """
 
-    def __init__(self, driver: WebDriver):
+    def __init__(self, driver: WebDriver) -> None:
         """
         构造函数
         Args:

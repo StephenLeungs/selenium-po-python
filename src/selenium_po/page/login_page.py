@@ -31,9 +31,10 @@ class LoginPage(ABC):
     # 注册/登录操作后的提示信息文本
     MESSAGE: Final = (By.CSS_SELECTOR, "#message")
 
-    def __init__(self):
+    def __init__(self) -> None:
         """
         构造函数
+        
         使用抛出错误的方式，代替实例化操作，防止类被实例化
         """
         raise TypeError("LoginPage is a utility class and cannot be instantiated")

@@ -7,7 +7,7 @@ from openpyxl import load_workbook
 class ExcelReader:
     """用于读取Excel测试数据的工具类"""
 
-    def __init__(self, file_name: str = "test_data.xlsx"):
+    def __init__(self, file_name: str = "test_data.xlsx") -> None:
         """
         初始化Excel读取器
 

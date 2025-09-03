@@ -27,7 +27,7 @@ class TestCookieCheck:
     reader = ExcelReader()
     cookie_check_test_data = reader.get_sheet_data_as_dict("LoginCookieCheckData")
 
-    def setup_method(self):
+    def setup_method(self) -> None:
         """
         setup_method特殊方法
 
@@ -37,7 +37,7 @@ class TestCookieCheck:
         self.driver.get("http://127.0.0.1:8080/cookie_check")
         self.cookie_check_page_operation = CookieCheckPageOperation(self.driver)
 
-    def teardown_method(self):
+    def teardown_method(self) -> None:
         """
         teardown_method特殊方法
 
