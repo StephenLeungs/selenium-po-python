@@ -29,8 +29,6 @@ class DriverUtils:
             WebDriver: Chrome浏览器实例
         """
 
-        # os.environ['WDM_DOWNLOAD_BASE_URL'] = "https://registry.npmmirror.com/binary.html?path=chrome-for-testing/"
-
         # 浏览器设置
         options = Options()
         options.add_argument("--start-maximized")
