@@ -88,7 +88,7 @@ selenium-po/
    
    访问地址：`http://127.0.0.1:8080/cookie_check`
 
-> 📍 **Demo位置**：`test/resources/web-test-demo.jar`  
+> 📍 **Demo位置**：`tests/resources/web-test-demo.jar`  
 > 
 > ![](docs/image/web-demo-path.png)
 
